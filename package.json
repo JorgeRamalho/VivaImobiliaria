@@ -1,0 +1,13 @@
+{
+  "name": "vivaimobiliaria",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional Viva Imobiliária — campanha Chave na Mão",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/html/index.html --watch=css,js,html,images",
+    "dev": "npm start"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
