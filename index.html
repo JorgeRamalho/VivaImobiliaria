@@ -2,11 +2,610 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=html/index.html">
-  <title>Viva Imobiliária</title>
-  <script>window.location.replace("html/index.html");</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Campanha Chave na Mão — 15% da reserva parcelado em até 3x. Simples, fácil e prático. Garanta seu imóvel na Viva Imobiliária.">
+  <meta name="theme-color" content="#1B3A4B">
+  <title>Viva Imobiliária | Chave na Mão — 15% em até 3x</title>
+  <link rel="canonical" href="https://www.vivaimobiliaria.com.br/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Viva Imobiliária">
+  <meta property="og:url" content="https://www.vivaimobiliaria.com.br/">
+  <meta property="og:title" content="Viva Imobiliária | Chave na Mão — 15% em até 3x">
+  <meta property="og:description" content="Campanha Chave na Mão — 15% da reserva parcelado em até 3x. Garanta seu imóvel na Viva Imobiliária.">
+  <meta property="og:image" content="https://www.vivaimobiliaria.com.br/images/hero/familia-1.jpg">
+  <meta property="og:image:alt" content="Família feliz reunida na sala de casa">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Viva Imobiliária | Chave na Mão — 15% em até 3x">
+  <meta name="twitter:description" content="Campanha Chave na Mão — 15% da reserva parcelado em até 3x. Garanta seu imóvel na Viva Imobiliária.">
+  <meta name="twitter:image" content="https://www.vivaimobiliaria.com.br/images/hero/familia-1.jpg">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "Viva Imobiliária",
+    "description": "Corretora boutique com a campanha Chave na Mão — 15% da reserva em até 3x.",
+    "url": "https://www.vivaimobiliaria.com.br/",
+    "telephone": "+55-11-99999-9999",
+    "email": "contato@vivaimobiliaria.com.br",
+    "image": "https://www.vivaimobiliaria.com.br/images/hero/familia-1.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Paulista, 1000",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "postalCode": "01310-100",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -23.561414,
+      "longitude": -46.655881
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "São Paulo"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "14:00"
+      }
+    ],
+    "priceRange": "$$"
+  }
+  </script>
 </head>
 <body>
-  <p>Redirecionando para <a href="html/index.html">Viva Imobiliária</a>...</p>
+
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <!-- Barra mobile fixa -->
+  <div class="mobile-bar" aria-label="Ações rápidas">
+    <a href="#busca" class="mobile-bar__item">Buscar</a>
+    <a href="tel:+5511999999999" class="mobile-bar__item">Ligar</a>
+    <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20a%20campanha%20Chave%20na%20M%C3%A3o." class="mobile-bar__item" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+  </div>
+
+  <!-- Cabeçalho -->
+  <header class="header" id="topo">
+    <div class="container header__inner">
+      <a href="#topo" class="logo" aria-label="Viva Imobiliária — início">
+        <svg class="logo__mark" width="36" height="36" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <rect class="logo__mark-bg" width="32" height="32" rx="6" fill="currentColor"/>
+          <path d="M8 22 L16 8 L24 22 Z" fill="none" stroke="currentColor" class="logo__mark-stroke" stroke-width="2.2" stroke-linejoin="round"/>
+          <circle cx="16" cy="18.5" r="1.6" fill="currentColor" class="logo__mark-dot"/>
+        </svg>
+        <span class="logo__text">Viva <strong>Imobiliária</strong></span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Menu principal">
+        <ul class="nav__list">
+          <li><a href="#inicio">🏡 Início</a></li>
+          <li><a href="#campanha">🔑 Chave na Mão</a></li>
+          <li><a href="#imoveis">🏘️ Imóveis</a></li>
+          <li><a href="#servicos">⚙️ Serviços</a></li>
+          <li><a href="#sobre">📋 Sobre</a></li>
+          <li><a href="#depoimentos">⭐ Depoimentos</a></li>
+          <li><a href="#contato" class="nav__cta">📩 Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Faixa da campanha -->
+  <div class="campaign-strip" role="banner">
+    <div class="container campaign-strip__inner">
+      <p class="campaign-strip__text">
+        <span class="campaign-strip__badge">Campanha</span>
+        <span class="campaign-strip__full"><strong>Chave na Mão!</strong> Parcele os <strong>15% da reserva em até 3x</strong></span>
+        <span class="campaign-strip__short"><strong>Chave na Mão</strong> — 15% em até 3x</span>
+      </p>
+      <a href="#campanha" class="campaign-strip__cta">Saiba mais</a>
+    </div>
+  </div>
+
+  <main id="conteudo">
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <div class="hero__carousel" aria-roledescription="carrossel" aria-label="Famílias felizes em seus lares">
+        <div class="hero__slide hero__slide--active">
+          <img src="images/hero/familia-1.jpg" alt="Família feliz reunida na sala de casa" width="1920" height="1080" loading="eager">
+        </div>
+        <div class="hero__slide">
+          <img src="images/hero/familia-2.jpg" alt="Pais brincando com os filhos no sofá" width="1920" height="1080" loading="lazy">
+        </div>
+        <div class="hero__slide">
+          <img src="images/hero/familia-3.jpg" alt="Família comemorando a conquista do imóvel próprio" width="1920" height="1080" loading="lazy">
+        </div>
+        <div class="hero__slide">
+          <img src="images/hero/familia-4.jpg" alt="Pais e crianças confraternizando no jardim" width="1920" height="1080" loading="lazy">
+        </div>
+        <div class="hero__slide">
+          <img src="images/hero/familia-5.jpg" alt="Família sorrindo em frente à nova casa" width="1920" height="1080" loading="lazy">
+        </div>
+        <div class="hero__slide">
+          <img src="images/hero/casa.jpg" alt="Casa contemporânea com fachada iluminada ao entardecer" width="1920" height="1080" loading="lazy">
+        </div>
+      </div>
+      <div class="hero__carousel-controls" aria-label="Controles do carrossel">
+        <button class="hero__carousel-btn hero__carousel-btn--prev" type="button" aria-label="Foto anterior">◀</button>
+        <div class="hero__carousel-dots" role="tablist" aria-label="Selecionar foto"></div>
+        <button class="hero__carousel-btn hero__carousel-btn--next" type="button" aria-label="Próxima foto">▶</button>
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <p class="hero__brand">Viva Imobiliária</p>
+        <h1>15% da reserva e o imóvel é seu</h1>
+        <p class="hero__subtitle">Parcele a reserva em até 3x e garanta seu apartamento, casa ou lançamento com condição exclusiva.</p>
+        <div class="hero__actions">
+          <a href="#imoveis" class="btn btn--primary">Ver imóveis da campanha</a>
+          <a href="#contato" class="btn btn--outline hero__btn-secondary">Falar com corretor</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Campanha Chave na Mão -->
+    <section class="section campaign" id="campanha">
+      <div class="container">
+        <div class="campaign__grid">
+          <div class="campaign__content">
+            <p class="section__eyebrow">🔑 Campanha Chave na Mão</p>
+            <h2>15% da reserva em até 3x!</h2>
+            <p class="campaign__lead">Simples, fácil e prático: garanta sua unidade pagando apenas <strong>15% do valor da reserva</strong>, com a comodidade de <strong>parcelar em até 3x</strong>. Sem burocracia, sem surpresas — do jeito que conquistar o imóvel próprio deveria ser.</p>
+            <ul class="campaign__benefits">
+              <li>✅ Entrada reduzida — apenas 15% para reservar</li>
+              <li>💳 Parcele os 15% em até 3x — simples e prático</li>
+              <li>🏠 Apartamentos, casas e lançamentos participantes</li>
+              <li>📄 Assessoria completa na documentação</li>
+              <li>⏳ Vagas limitadas — unidades selecionadas</li>
+              <li>🤝 Corretor dedicado do início ao fim</li>
+            </ul>
+            <div class="campaign__actions">
+              <a href="#imoveis" class="btn btn--primary">🏘️ Ver imóveis da campanha</a>
+              <a href="#contato" class="btn btn--outline campaign__btn-outline">📩 Quero participar</a>
+            </div>
+          </div>
+          <div class="campaign__highlight">
+            <div class="campaign__card">
+              <span class="campaign__card-icon" aria-hidden="true">🔑</span>
+              <p class="campaign__card-label">Entrada facilitada</p>
+              <p class="campaign__card-value">15<span>%</span></p>
+              <p class="campaign__card-desc">da reserva para garantir seu imóvel</p>
+              <p class="campaign__card-installment">💳 Parcele em até <strong>3x</strong> — simples, fácil e prático</p>
+              <div class="campaign__card-steps">
+                <div class="campaign__step">
+                  <span>1️⃣</span>
+                  <p>Escolha o imóvel</p>
+                </div>
+                <div class="campaign__step">
+                  <span>2️⃣</span>
+                  <p>Parcele os 15% em 3x</p>
+                </div>
+                <div class="campaign__step">
+                  <span>3️⃣</span>
+                  <p>Receba as chaves!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="stats" aria-label="Números da Viva Imobiliária">
+          <div class="stat"><span class="stat__icon" aria-hidden="true">🏘️</span><strong>850+</strong><span>Imóveis</span></div>
+          <div class="stat"><span class="stat__icon" aria-hidden="true">😊</span><strong>2.400+</strong><span>Clientes</span></div>
+          <div class="stat"><span class="stat__icon" aria-hidden="true">🏆</span><strong>15</strong><span>Anos</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="section" id="imoveis">
+      <div class="container">
+        <header class="section__header">
+          <p class="section__eyebrow">🔑 Campanha Chave na Mão</p>
+          <h2>Imóveis com 15% em até 3x</h2>
+          <p>Parcele os 15% da reserva em até 3 parcelas — simples, fácil e prático. Unidades participantes da campanha Chave na Mão.</p>
+        </header>
+
+        <form class="search-box search-box--section" id="busca" aria-label="Buscar imóveis">
+          <div class="search-box__field">
+            <label for="tipo">🏷️ Tipo</label>
+            <select id="tipo" name="tipo">
+              <option value="">Todos</option>
+              <option value="casa">🏠 Casa</option>
+              <option value="apartamento">🏢 Apartamento</option>
+              <option value="comercial">🏬 Comercial</option>
+              <option value="terreno">🌳 Terreno</option>
+            </select>
+          </div>
+          <div class="search-box__field">
+            <label for="cidade">📍 Cidade</label>
+            <input type="text" id="cidade" name="cidade" placeholder="Ex: São Paulo">
+          </div>
+          <div class="search-box__field">
+            <label for="preco">💰 Preço máx.</label>
+            <select id="preco" name="preco">
+              <option value="">Qualquer</option>
+              <option value="300000">Até R$ 300 mil</option>
+              <option value="600000">Até R$ 600 mil</option>
+              <option value="1000000">Até R$ 1 milhão</option>
+              <option value="min:1000000">Acima de R$ 1 milhão</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn--primary">Buscar imóveis</button>
+        </form>
+        <p class="form-feedback form-feedback--section" id="search-feedback" role="status" aria-live="polite" hidden></p>
+
+        <div class="filters" role="group" aria-label="Filtrar imóveis">
+          <button class="filter-btn filter-btn--active" data-filter="todos" type="button">Todos</button>
+          <button class="filter-btn" data-filter="venda" type="button">Venda</button>
+          <button class="filter-btn" data-filter="aluguel" type="button">Aluguel</button>
+          <button class="filter-btn" data-filter="lancamento" type="button">Lançamento</button>
+          <button class="filter-btn" data-filter="campanha" type="button">Chave na Mão</button>
+        </div>
+
+        <p class="properties-empty" id="properties-empty" hidden>Nenhum imóvel encontrado com esses critérios. Ajuste a busca ou limpe os filtros.</p>
+
+        <div class="properties-grid" id="properties-grid">
+          <article class="property-card" data-category="venda campanha" data-tipo="apartamento" data-cidade="vila mariana sao paulo sp" data-preco="890000" data-negocio="venda">
+            <div class="property-card__badge property-card__badge--campaign">Chave na Mão</div>
+            <div class="property-card__image">
+              <img src="images/properties/apartamento-1.jpg" alt="Apartamento moderno com vista para a cidade" width="600" height="400" loading="lazy">
+            </div>
+            <div class="property-card__body">
+              <h3>Apartamento Alto Padrão</h3>
+              <p class="property-card__location">Vila Mariana, São Paulo — SP</p>
+              <ul class="property-card__features">
+                <li>3 quartos</li>
+                <li>2 banheiros</li>
+                <li>98 m²</li>
+                <li>2 vagas</li>
+              </ul>
+              <div class="property-card__footer">
+                <div>
+                  <span class="property-card__price">R$ 890.000</span>
+                  <span class="property-card__entry">Entrada: R$ 133.500 (15%)</span>
+                  <span class="property-card__installment">3x de R$ 44.500</span>
+                </div>
+                <a href="#contato" class="btn btn--outline btn--sm">Reservar agora</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="property-card" data-category="venda campanha" data-tipo="casa" data-cidade="alphaville barueri sp" data-preco="1450000" data-negocio="venda">
+            <div class="property-card__badge property-card__badge--campaign">Chave na Mão</div>
+            <div class="property-card__image">
+              <img src="images/properties/casa-1.jpg" alt="Casa térrea com fachada contemporânea" width="600" height="400" loading="lazy">
+            </div>
+            <div class="property-card__body">
+              <h3>Casa com Piscina</h3>
+              <p class="property-card__location">Alphaville, Barueri — SP</p>
+              <ul class="property-card__features">
+                <li>4 quartos</li>
+                <li>3 banheiros</li>
+                <li>320 m²</li>
+                <li>Jardim</li>
+              </ul>
+              <div class="property-card__footer">
+                <div>
+                  <span class="property-card__price">R$ 1.450.000</span>
+                  <span class="property-card__entry">Entrada: R$ 217.500 (15%)</span>
+                  <span class="property-card__installment">3x de R$ 72.500</span>
+                </div>
+                <a href="#contato" class="btn btn--outline btn--sm">Reservar agora</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="property-card" data-category="aluguel" data-tipo="apartamento" data-cidade="pinheiros sao paulo sp" data-preco="2800" data-negocio="aluguel">
+            <div class="property-card__badge property-card__badge--rent">Aluguel</div>
+            <div class="property-card__image">
+              <img src="images/properties/apartamento-2.jpg" alt="Studio compacto e bem iluminado" width="600" height="400" loading="lazy">
+            </div>
+            <div class="property-card__body">
+              <h3>Studio Mobiliado</h3>
+              <p class="property-card__location">Pinheiros, São Paulo — SP</p>
+              <ul class="property-card__features">
+                <li>1 quarto</li>
+                <li>1 banheiro</li>
+                <li>42 m²</li>
+                <li>Pet friendly</li>
+              </ul>
+              <div class="property-card__footer">
+                <span class="property-card__price">R$ 2.800/mês</span>
+                <a href="#contato" class="btn btn--outline btn--sm">Agendar visita</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="property-card" data-category="lancamento campanha" data-tipo="apartamento" data-cidade="moema sao paulo sp" data-preco="620000" data-negocio="venda">
+            <div class="property-card__badge property-card__badge--campaign">Chave na Mão</div>
+            <div class="property-card__image">
+              <img src="images/properties/condominio-1.jpg" alt="Empreendimento residencial em construção" width="600" height="400" loading="lazy">
+            </div>
+            <div class="property-card__body">
+              <h3>Residencial Horizonte</h3>
+              <p class="property-card__location">Moema, São Paulo — SP</p>
+              <ul class="property-card__features">
+                <li>2 a 4 quartos</li>
+                <li>Piscina</li>
+                <li>Academia</li>
+                <li>Portaria 24h</li>
+              </ul>
+              <div class="property-card__footer">
+                <div>
+                  <span class="property-card__price">A partir de R$ 620.000</span>
+                  <span class="property-card__entry">Entrada: a partir de R$ 93.000 (15%)</span>
+                  <span class="property-card__installment">3x a partir de R$ 31.000</span>
+                </div>
+                <a href="#contato" class="btn btn--outline btn--sm">Reservar agora</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="property-card" data-category="venda campanha" data-tipo="casa" data-cidade="granja viana cotia sp" data-preco="780000" data-negocio="venda">
+            <div class="property-card__badge property-card__badge--campaign">Chave na Mão</div>
+            <div class="property-card__image">
+              <img src="images/properties/casa-2.jpg" alt="Sobrado em condomínio fechado" width="600" height="400" loading="lazy">
+            </div>
+            <div class="property-card__body">
+              <h3>Sobrado em Condomínio</h3>
+              <p class="property-card__location">Granja Viana, Cotia — SP</p>
+              <ul class="property-card__features">
+                <li>3 quartos</li>
+                <li>2 banheiros</li>
+                <li>180 m²</li>
+                <li>Segurança</li>
+              </ul>
+              <div class="property-card__footer">
+                <div>
+                  <span class="property-card__price">R$ 780.000</span>
+                  <span class="property-card__entry">Entrada: R$ 117.000 (15%)</span>
+                  <span class="property-card__installment">3x de R$ 39.000</span>
+                </div>
+                <a href="#contato" class="btn btn--outline btn--sm">Reservar agora</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="property-card" data-category="aluguel" data-tipo="comercial" data-cidade="faria lima sao paulo sp" data-preco="6500" data-negocio="aluguel">
+            <div class="property-card__badge property-card__badge--rent">Aluguel</div>
+            <div class="property-card__image">
+              <img src="images/properties/comercial-1.jpg" alt="Sala comercial em edifício corporativo" width="600" height="400" loading="lazy">
+            </div>
+            <div class="property-card__body">
+              <h3>Sala Comercial</h3>
+              <p class="property-card__location">Faria Lima, São Paulo — SP</p>
+              <ul class="property-card__features">
+                <li>85 m²</li>
+                <li>Ar central</li>
+                <li>4 elevadores</li>
+                <li>Estacionamento</li>
+              </ul>
+              <div class="property-card__footer">
+                <span class="property-card__price">R$ 6.500/mês</span>
+                <a href="#contato" class="btn btn--outline btn--sm">Agendar visita</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="section__cta">
+          <a href="#contato" class="btn btn--primary">📋 Ver todos os imóveis</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Por que escolher -->
+    <section class="section section--alt" id="servicos">
+      <div class="container">
+        <header class="section__header">
+          <p class="section__eyebrow">⚙️ Nossos serviços</p>
+          <h2>Tudo que você precisa em um só lugar</h2>
+          <p>Da busca à escritura: atendimento completo para comprar, alugar ou investir com segurança.</p>
+        </header>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">🔍</span>
+            <h3>Busca personalizada</h3>
+            <p>Filtros por bairro, preço, metragem e tipo — encontre o imóvel ideal até 30% mais rápido.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">📸</span>
+            <h3>Tour virtual 360°</h3>
+            <p>Fotos profissionais e visitas virtuais imersivas antes de sair de casa.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">📄</span>
+            <h3>Assessoria documental</h3>
+            <p>Acompanhamos financiamento, escritura e registro do início ao fim.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">💼</span>
+            <h3>Consultoria de investimento</h3>
+            <p>Análise de valorização e rentabilidade para quem busca patrimônio.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">🏷️</span>
+            <h3>Avaliação gratuita</h3>
+            <p>Descubra o valor real do seu imóvel com laudo de mercado atualizado.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">🤝</span>
+            <h3>Corretor dedicado</h3>
+            <p>Um especialista exclusivo do primeiro contato até a entrega das chaves.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section about" id="sobre">
+      <div class="container about__grid">
+        <div class="about__images">
+          <img src="images/institutional/equipe.jpg" alt="Equipe de corretores em reunião" class="about__img-main" width="560" height="420" loading="lazy">
+          <img src="images/institutional/interior-1.jpg" alt="Sala de estar decorada" class="about__img-secondary" width="280" height="200" loading="lazy">
+        </div>
+        <div class="about__content">
+          <p class="section__eyebrow">📋 Sobre a Viva</p>
+          <h2>Humanos por trás de cada negociação</h2>
+          <p>Somos uma corretora boutique que une tecnologia e proximidade. Acreditamos que comprar ou alugar um imóvel é uma das decisões mais importantes da vida — por isso tratamos cada cliente com transparência e dedicação.</p>
+          <ul class="about__list">
+            <li>✅ CRECI-SP 12345-J</li>
+            <li>✅ Mais de 850 imóveis ativos</li>
+            <li>✅ Parcerias com 12 construtoras</li>
+            <li>✅ Atendimento 7 dias por semana</li>
+          </ul>
+          <a href="#contato" class="btn btn--primary">💬 Falar com um corretor</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="section section--alt" id="depoimentos">
+      <div class="container">
+        <header class="section__header">
+          <p class="section__eyebrow">⭐ Depoimentos</p>
+          <h2>O que nossos clientes dizem</h2>
+        </header>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial">
+            <p class="testimonial__stars" aria-label="5 estrelas">⭐⭐⭐⭐⭐</p>
+            <p>"Encontrei meu apartamento em duas semanas. Equipe atenciosa e processo sem burocracia desnecessária."</p>
+            <footer>— 👩 Mariana S., Pinheiros</footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p class="testimonial__stars" aria-label="5 estrelas">⭐⭐⭐⭐⭐</p>
+            <p>"Vendi minha casa acima do valor esperado. A avaliação e o marketing fizeram toda a diferença."</p>
+            <footer>— 👨 Carlos R., Alphaville</footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p class="testimonial__stars" aria-label="5 estrelas">⭐⭐⭐⭐⭐</p>
+            <p>"Tour virtual economizou meu tempo. Só visitei os 3 imóveis que realmente valiam a pena."</p>
+            <footer>— 👩 Ana L., Moema</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section contact" id="contato">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <p class="section__eyebrow">📩 Entre em contato</p>
+          <h2>Vamos conversar sobre seu próximo imóvel?</h2>
+          <p>Preencha o formulário ou fale diretamente conosco. Respondemos em até 2 horas úteis.</p>
+          <ul class="contact__details">
+            <li><span aria-hidden="true">📞</span> <a href="tel:+5511999999999">(11) 99999-9999</a></li>
+            <li><span aria-hidden="true">📧</span> <a href="mailto:contato@vivaimobiliaria.com.br">contato@vivaimobiliaria.com.br</a></li>
+            <li><span aria-hidden="true">📍</span> Av. Paulista, 1000 — São Paulo, SP</li>
+            <li><span aria-hidden="true">🕐</span> Seg–Sex 9h–19h | Sáb 9h–14h</li>
+          </ul>
+          <div class="contact__social">
+            <a href="https://www.instagram.com/vivaimobiliaria/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20a%20campanha%20Chave%20na%20M%C3%A3o." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href="https://www.linkedin.com/company/viva-imobiliaria/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
+        <form class="contact-form" aria-label="Formulário de contato" novalidate>
+          <div class="contact-form__row">
+            <div class="contact-form__field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" required placeholder="Seu nome completo" autocomplete="name">
+            </div>
+            <div class="contact-form__field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required placeholder="seu@email.com" autocomplete="email">
+            </div>
+          </div>
+          <div class="contact-form__field">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" autocomplete="tel">
+          </div>
+          <div class="contact-form__field">
+            <label for="interesse">Interesse</label>
+            <select id="interesse" name="interesse">
+              <option value="comprar">Comprar</option>
+              <option value="alugar">Alugar</option>
+              <option value="vender">Vender meu imóvel</option>
+              <option value="avaliar">Avaliar imóvel</option>
+              <option value="campanha">Campanha Chave na Mão</option>
+            </select>
+          </div>
+          <div class="contact-form__field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos o que você procura..."></textarea>
+          </div>
+          <p class="form-feedback" id="contact-feedback" role="status" aria-live="polite" hidden></p>
+          <button type="submit" class="btn btn--primary btn--full">Enviar mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#topo" class="logo" aria-label="Viva Imobiliária — início">
+          <svg class="logo__mark" width="36" height="36" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+            <rect class="logo__mark-bg" width="32" height="32" rx="6" fill="currentColor"/>
+            <path d="M8 22 L16 8 L24 22 Z" fill="none" stroke="currentColor" class="logo__mark-stroke" stroke-width="2.2" stroke-linejoin="round"/>
+            <circle cx="16" cy="18.5" r="1.6" fill="currentColor" class="logo__mark-dot"/>
+          </svg>
+          <span class="logo__text">Viva <strong>Imobiliária</strong></span>
+        </a>
+        <p>Seu parceiro de confiança na jornada imobiliária. Transparência, expertise e resultados.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Links do rodapé">
+        <h4>🔗 Links rápidos</h4>
+        <ul>
+          <li><a href="#campanha">🔑 Chave na Mão</a></li>
+          <li><a href="#imoveis">🏘️ Imóveis</a></li>
+          <li><a href="#servicos">⚙️ Serviços</a></li>
+          <li><a href="#sobre">📋 Sobre</a></li>
+          <li><a href="#contato">📩 Contato</a></li>
+        </ul>
+      </nav>
+      <div class="footer__legal">
+        <h4>📜 Informações legais</h4>
+        <p>CRECI-SP 12345-J</p>
+        <p>Declaração de práticas de Fair Housing — não discriminamos por raça, cor, religião, sexo, deficiência, orientação familiar ou origem nacional.</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2026 Viva Imobiliária. Todos os direitos reservados. 🏠 Feito com dedicação.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+  <div class="form-toast" id="form-toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
 </body>
 </html>

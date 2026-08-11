@@ -1,0 +1,8 @@
+/**
+ * Utilitários compartilhados
+ */
+
+/** @returns {boolean} */
+export function prefersReducedMotion() {
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+}

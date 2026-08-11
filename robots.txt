@@ -1,0 +1,9 @@
+# https://www.vivaimobiliaria.com.br/robots.txt
+User-agent: *
+Allow: /
+
+# Bloquear paths técnicos locais (se publicados por engano)
+Disallow: /node_modules/
+Disallow: /docs/
+
+Sitemap: https://www.vivaimobiliaria.com.br/sitemap.xml

@@ -1,0 +1,39 @@
+/* =============================================
+   VIVA IMOBILIÁRIA — tokens.css
+   Design tokens (cores, tipografia, espaçamento)
+   ============================================= */
+
+:root {
+  --color-bg: #FAFAF8;
+  --color-bg-alt: #F0EDE8;
+  --color-white: #FFFFFF;
+  --color-primary: #1B3A4B;
+  --color-primary-light: #2C5282;
+  --color-accent: #C9A227;
+  --color-accent-hover: #B08E1F;
+  --color-text: #2D3748;
+  --color-text-muted: #718096;
+  --color-border: #E2E8F0;
+  --color-success: #38A169;
+  --color-rent: #3182CE;
+  --color-new: #805AD5;
+
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.75rem;
+
+  --line-height: 1.6;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 4px 24px rgba(27, 58, 75, 0.08);
+  --shadow-lg: 0 12px 40px rgba(27, 58, 75, 0.12);
+  --transition: 0.25s ease;
+  --header-height: 72px;
+  --campaign-strip-height: 44px;
+}
